@@ -37,3 +37,12 @@ if edad >= 18 or (permiso_padres and acompanado_por_adulto):
     print("Entrada permitida")
 else:
     print("Entrada denegada")
+
+hay_movimiento = True
+alarma_encendida = False
+
+if hay_movimiento and alarma_encendida:
+    print("¡Alarma activada!")
+else:
+    print("Todo tranquilo.")
+    
