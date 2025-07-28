@@ -19,20 +19,3 @@ for num in range(2, 51):
         print(num, end=" ")
 print()
 print("-"* 20)
-
-# Pide al usuario que ingrese 5 palabras, 
-# guárdalas en una lista y luego muestra 
-# cuál fue la palabra más larga ingresada.
-
-palabras = []
-
-print("Por favor. ingresa 5 palabras: ")
-for i in range(5):
-    palabra = input(f"Palabra {i + 1}: ")
-    palabras.append(palabra)
-
-palabra_mas_larga = ""
-for palabra in palabras:
-    if len(palabra) > len(palabra_mas_larga):
-        palabra_mas_larga = palabra
-print(f"\nLa palabra mas larga que ingresaste es:{palabra_mas_larga} ")
